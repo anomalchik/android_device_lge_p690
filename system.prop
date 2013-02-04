@@ -1,0 +1,38 @@
+#
+# system.prop for p690
+#
+
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+ril.subscription.types=NV,RUIM
+ro.telephony.ril_class=lgeqcom
+
+
+#phone calls tweaks
+ro.telephony.call_ring.delay=0 
+
+
+#images and video capturing
+ro.media.enc.jpeg.quality=100                     
+ro.media.dec.jpeg.memcap=8000000               
+ro.media.enc.hprof.vid.bps=8000000
+
+# The camera blob needs this
+ro.product.qcomdevice=msm7627_surf
+
+# This is a high density device with more memory, so larger vm heaps for it.
+dalvik.vm.heapsize=24m
+
+ro.bt.bdaddr_path=/data/misc/bd_addr
+
+## We support GLES2
+ro.opengles.version=131072
