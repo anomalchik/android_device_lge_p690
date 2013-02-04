@@ -84,7 +84,7 @@ PRODUCT_PACKAGES += \
     gralloc.p690 \
     gps.p690 \
     hwaddrs \
-    copybit.msm7k \
+    copybit.p690 \
     libOmxCore
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
