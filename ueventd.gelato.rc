@@ -23,6 +23,12 @@
 /dev/kgsl-2d0             0666   root       root
 /dev/kgsl-2d1             0666   root       root
 
+# graphics
+/dev/graphics/*           0660   root       graphics
+# /dev/msm_hw3dm            0660   system     graphics
+/dev/msm_rotator          0660   system     graphics
+# /dev/pmem                 0660   system     graphics
+
 # these should not be world writable
 /dev/diag_arm9            0660   radio      radio
 /dev/android_adb          0660   adb        adb
@@ -32,13 +38,9 @@
 /dev/uinput               0660   system     bluetooth
 /dev/alarm                0664   system     radio
 /dev/tty0                 0660   root       system
-/dev/graphics/*           0660   root       graphics
-/dev/msm_hw3dm            0660   system     graphics
-/dev/msm_rotator          0660   system     graphics
 /dev/input/*              0660   root       input
 /dev/eac                  0660   root       audio
 /dev/cam                  0660   root       camera
-/dev/pmem                 0660   system     graphics
 /dev/pmem_audio           0660   system     audio
 /dev/pmem_adsp*           0660   system     audio
 /dev/pmem_smipool*        0660   system     camera
