@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_PACKAGES += \
-    gralloc.p690 \
     gps.p690 \
     hwaddrs \
     copybit.msm7k \

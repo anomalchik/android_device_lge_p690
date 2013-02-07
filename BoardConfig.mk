@@ -13,13 +13,11 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := msm7k
 TARGET_CPU_ABI := armeabi
 TARGET_ARCH_VARIANT := armv6-vfp
-TARGET_BOARD_PLATFORM := msm7k
-TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := p690
 
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
 
-BOARD_KERNEL_CMDLINE := mem=471M console=ttyMSM2,115200n8 androidboot.hardware=gelato
+BOARD_KERNEL_CMDLINE := mem=471M console=ttyMSM2,115200n8 androidboot.hardware=gelato no_console_suspend
 BOARD_KERNEL_BASE := 0x12800000
 BOARD_KERNEL_PAGESIZE := 2048
 #fix build recovery
