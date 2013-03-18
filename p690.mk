@@ -41,9 +41,6 @@ PRODUCT_COPY_FILES += \
 #Modules
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/wireless.ko:system/lib/modules/wireless.ko \
-    $(LOCAL_PATH)/prebuilt/tun.ko:system/lib/modules/tun.ko \
-    $(LOCAL_PATH)/prebuilt/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
-    $(LOCAL_PATH)/prebuilt/librasdioif.ko:system/lib/modules/librasdioif.ko \
     $(LOCAL_PATH)/prebuilt/fbconsole.ko:system/lib/modules/fbconsole.ko
     
 # chargermode
