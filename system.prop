@@ -30,7 +30,9 @@ ro.media.enc.hprof.vid.bps=8000000
 ro.product.qcomdevice=msm7627_surf
 
 # This is a high density device with more memory, so larger vm heaps for it.
-dalvik.vm.heapsize=24m
+dalvik.vm.heapsize=48m
+hs.systemserver=48m 
+ro.compcache.default=18
 
 ro.bt.bdaddr_path=/data/misc/bd_addr
 
