@@ -6,7 +6,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/gelato_keypad.kl:system/usr/keylayout/gelato_keypad.kl \
 	$(LOCAL_PATH)/configs/gelato_keypad.kcm.bin:system/usr/keychars/gelato_keypad.kcm.bin \
 	$(LOCAL_PATH)/configs/synaptics-rmi-ts.idc:system/usr/idc/synaptics-rmi-ts.idc \
-	$(LOCAL_PATH)/configs/nvram.txt:system/etc/wl/nvram.txt \
 	$(LOCAL_PATH)/configs/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 # p690 init
