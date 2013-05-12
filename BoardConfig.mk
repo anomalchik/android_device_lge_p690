@@ -13,8 +13,6 @@ SMALLER_FONT_FOOTPRINT := true
 
 ## Kernel 
 TARGET_KERNEL_CONFIG := cyanogenmod_p690_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/msm7x27
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
 ## BT
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p690/bluetooth
